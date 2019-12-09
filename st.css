@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   }
+   .c_div{
+       margin: 0px;
+       padding: 10px;
+       height: 150px;
+       width:210px;
+       background-color: rgb(226, 226, 226);
+       border-radius: 10px;
+   }
+   #st{
+       font-weight: bold;
+
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: darkred;
+       padding-bottom: 0px;
+   }
+   .btnnnnn{
+    border-radius: 40px 40px 40px 36px;
+    height:45px;
+    width:100%;
+    font-weight:bold;
+    color:white;
+    font-size: 18px;
+    -webkit-box-shadow: 10px 5px 21px 5px #000000; 
+    box-shadow: 10px 5px 21px 5px #000000;
+
+   }
+   #btnstp{
+    background: #000000;
+    border: 1px solid #300000;
+
+background: -moz-linear-gradient(45deg, #000000 0%, #730606 100%);
+background: -webkit-linear-gradient(45deg, #000000 0%, #730606 100%);
+background: linear-gradient(45deg, #000000 0%, #730606 100%);
+
+   }
+   #btnstrt{
+    background: #000000;
+    border: 1px solid rgb(7, 0, 68);
+
+background: -moz-linear-gradient(45deg, #000000 0%, #1A6473 100%);
+background: -webkit-linear-gradient(45deg, #000000 0%, #1A6473 100%);
+background: linear-gradient(45deg, #000000 0%, #1A6473 100%);
+   }

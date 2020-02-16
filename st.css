@@ -32,7 +32,7 @@ body {
    }
    #btnstp{
     background: #000000;
-    border: 1px solid #300000;
+    /* border: 2px solid #300000; */
 
 background: -moz-linear-gradient(45deg, #000000 0%, #730606 100%);
 background: -webkit-linear-gradient(45deg, #000000 0%, #730606 100%);
@@ -41,7 +41,7 @@ background: linear-gradient(45deg, #000000 0%, #730606 100%);
    }
    #btnstrt{
     background: #000000;
-    border: 1px solid rgb(7, 0, 68);
+    /* border: 1px solid rgb(7, 0, 68); */
 
 background: -moz-linear-gradient(45deg, #000000 0%, #1A6473 100%);
 background: -webkit-linear-gradient(45deg, #000000 0%, #1A6473 100%);

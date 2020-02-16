@@ -24,7 +24,14 @@ chrome.runtime.onMessage.addListener(
         brk = request.brk;
         if(  msgg === "start" && request.flag ==1 && brk==="no"){
             alert("Kotha is activated")
-            let x = document.querySelectorAll("input[type=text]");
+            let a = document.querySelectorAll("input[type=text]");
+            let b = document.querySelectorAll("input[type=password]");
+            let c = document.querySelectorAll("input[type=search]");
+            let d = document.querySelectorAll("input[type=email]");
+            let e = document.querySelectorAll("input[type=url]");
+            let f = document.querySelectorAll("input[type=number]");
+            let x = [...a,...b,...c,...d,...e,...f];
+            console.log(x);
             for(let z of x){
                 z.addEventListener("click", async function(){
                     if(brk === "no"){
